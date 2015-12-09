@@ -1,0 +1,33 @@
+{
+  "name": "react-editinplace",
+  "version": "1.0.0",
+  "description": "React edit in place component",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^0.14.3"
+  },
+  "devDependencies": {
+    "eslint": "^1.10.3",
+    "eslint-plugin-react": "^3.11.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nezriffic/react-editinplace.git"
+  },
+  "keywords": [
+    "react",
+    "edit",
+    "editinplace",
+    "inline",
+    "input"
+  ],
+  "author": "Michal Sekula <nezriffic@mlask.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nezriffic/react-editinplace/issues"
+  },
+  "homepage": "https://github.com/nezriffic/react-editinplace#readme"
+}
