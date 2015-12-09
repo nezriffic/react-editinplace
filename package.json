@@ -1,6 +1,6 @@
 {
   "name": "react-editinplace",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React edit in place component",
   "main": "index.js",
   "dependencies": {
