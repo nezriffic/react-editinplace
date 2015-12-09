@@ -23,7 +23,7 @@ var React = require('react'),
             activeClassName: React.PropTypes.string
         },
 
-        getInitialState() {
+        getInitialState: function () {
 
             if (this.props.validate) {
                 this._validate = this.props.validate;
@@ -40,31 +40,31 @@ var React = require('react'),
 
         },
 
-        _onCancel() {
+        _onCancel: function () {
             this.setState({
                 mode: this.MODES.read
             });
 
         },
 
-        _onKeyDown(e) {
+        _onKeyDown: function (e) {
             if (e && e.keyCode === 27) {
                 this._onCancel();
             }
 
         },
 
-        componentDidMount() {
+        componentDidMount: function () {
             window.addEventListener('keydown', this._onKeyDown);
 
         },
 
-        componentWillUnmount() {
+        componentWillUnmount: function () {
             window.removeEventListener('keydown', this._onKeyDown);
 
         },
 
-        _onDoubleClick(e) {
+        _onDoubleClick: function (e) {
             e.preventDefault();
 
             if (this.state.mode === this.MODES.read) {
@@ -79,12 +79,12 @@ var React = require('react'),
 
         },
 
-        _onClick(e) {
+        _onClick: function (e) {
             this._onDoubleClick(e);
 
         },
 
-        _onSave(e) {
+        _onSave: function (e) {
             e.preventDefault();
 
             var node = React.findDOMNode(this.refs.input);
@@ -108,7 +108,7 @@ var React = require('react'),
 
         },
 
-        render() {
+        render: function () {
             var classname = this.props.className || 'editinplace',
                 activeclassname = this.props.activeClassName || 'active';
 
