@@ -1,6 +1,6 @@
 {
   "name": "react-editinplace",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "React edit in place component",
   "main": "index.js",
   "dependencies": {
@@ -8,7 +8,8 @@
   },
   "devDependencies": {
     "eslint": "^1.10.3",
-    "eslint-plugin-react": "^3.11.3"
+    "eslint-plugin-react": "^3.11.3",
+    "react-tools": "^0.13.3"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
