@@ -48,7 +48,7 @@ var React = require('react'),
         },
 
         _onKeyDown: function (e) {
-            if (e && e.keyCode === 27) {
+            if (this.state.mode === this.MODES.edit && e && e.keyCode === 27) {
                 this._onCancel();
             }
 
